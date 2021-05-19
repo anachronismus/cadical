@@ -131,6 +131,9 @@ add_library(cadical STATIC
 	src/message.cpp
 	src/radix.hpp
 	src/subsume.cpp
+	src/shrink.cpp
+	src/reap.hpp
+	src/reap.cpp
 )
 
 target_compile_options(cadical PRIVATE -DNBUILD)
